@@ -1,7 +1,6 @@
 import bodyParser from "body-parser";
-import cors from "cors";
 import express from "express";
-
+import cors from "#root/utils/cors";
 import accessEnv from "#root/helpers/accessEnv";
 import setupRoute from "#root/routes/setupRoute"
 
@@ -13,13 +12,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-app.use(
-    cors({
-        origin: (origin, cb) => cb(null, null),
-        credentials: true
-    })
-);
-
+cors(app);
 setupRoute(app);
 
 app.use((err, req, res, next) => {
