@@ -1,0 +1,6 @@
+.input__tag {
+    border: 1px solid black;
+    height: 25px;
+    border-radius: 3px;
+    width: 100%;
+}

@@ -1,0 +1,20 @@
+#Home {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 30em;
+    margin-top: -7em;
+    margin-left: -15em;
+    border: 0 solid rgb(153, 151, 151);
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+#search {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid grey;
+    background-color: rgb(241, 237, 237);
+    font-size: 20px;
+}

@@ -1,0 +1,11 @@
+#Footer {
+    background-color: red;
+    position: fixed;
+    height: 40px;
+    line-height: 40px;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: blueviolet;
+    color: #ffffff;
+}
